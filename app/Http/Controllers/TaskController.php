@@ -28,7 +28,7 @@ class TaskController extends Controller
         $task->save();
     }
 
-    public function edit(StoreTask $task)
+    public function update(StoreTask $task)
     {
         if ($task->validated()) {
             $currentTask = Task::findOrFail($task->id);
