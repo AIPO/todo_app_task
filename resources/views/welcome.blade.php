@@ -15,6 +15,7 @@
 <body>
 <div id="app" class="container">
     <taskList></taskList>
+    <script src="{{mix('js\app.js')}}"></script>
 </div>
 </body>
 </html>
